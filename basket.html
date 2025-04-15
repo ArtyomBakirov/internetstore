@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/basket.css">
+</head>
+<body>
+
+<div class="cart-container">
+    <h1>Ваша корзина</h1>
+    <div class="cart-items">
+        <!-- Пример товара -->
+        <div class="cart-item">
+            <img src="img/gta5.jpg" alt="товар">
+
+
+            <div class="item-details">
+                <h3>Товар 1</h3>
+                <p>Цена: 1000 ₽</p>
+            </div>
+            <button class="remove-item">Удалить</button>
+        </div>
+        <!-- Можно добавить другие товары по аналогии -->
+    </div>
+
+    <div class="payment-methods">
+        <h2>Выберите способ оплаты</h2>
+        <select name="payment-method" id="payment-method">
+            <option value="credit-card">СберPay</option>
+            <option value="paypal">Платёжная система Мир</option>
+            <option value="cash-on-delivery">СБП</option>
+        </select>
+    </div>
+
+    <div class="total-price">
+        <p>Общая стоимость: <strong>1000 ₽</strong></p>
+    </div>
+
+    <button class="checkout-btn">Перейти к оплате</button>
+</div>
+
+<script src="basket.js"></script>
+</body>
+</html>
