@@ -99,12 +99,9 @@ main {
 .form__btn:focus {
   background-color: rgb(0, 0, 53);
   color: lavender;
-  outline: 1px solid (0, 0, 139, 0.493);
+  outline: 1px solid (0, 0, 139, 0.4);
   outline-offset: 3px;
 }
-
-/*--------карточка товара-----------*/
-
 .catalog__title {
   font-size: 20px;
   color: black;

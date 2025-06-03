@@ -84,12 +84,11 @@ select {
 .checkout-btn {
     background-color: #47d651;
     color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
+    padding: 15px 440px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 18px;
-    width: 100%;
+    font-size: 20px;
+    width: 500%;
 }
 
 .checkout-btn:hover {

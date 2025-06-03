@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Светлый зеленый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff; /* Белый фон формы */
+    border: 2px solid #4CAF50; /* Зеленая рамка */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ширина формы */
+}
+
+.form__item {
+    margin-bottom: 15px; /* Отступ между элементами формы */
+}
+
+.form__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #388E3C; /* Темно-зеленый цвет текста метки */
+}
+
+.form__field {
+    width: 100%; /* Полная ширина поля */
+    padding: 10px;
+    border: 1px solid #4CAF50; /* Зеленая рамка поля */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form__field:focus {
+    border-color: #2E7D32; /* Темно-зеленая рамка при фокусе */
+    outline: none; /* Убираем стандартный контур */
+}
+
+.form__button {
+    background-color: #4CAF50; /* Зеленая кнопка */
+    color: white; /* Белый цвет текста */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+    width: 100%; /* Полная ширина кнопки */
+}
+
+.form__button:hover {
+    background-color: #45a049; /* Темно-зеленый при наведении */
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 90%; /* Адаптивная ширина для мобильных устройств */
+    }
+}

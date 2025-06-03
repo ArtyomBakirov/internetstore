@@ -28,9 +28,10 @@
     <div class="payment-methods">
         <h2>Выберите способ оплаты</h2>
         <select name="payment-method" id="payment-method">
-            <option value="credit-card">СберPay</option>
-            <option value="paypal">Платёжная система Мир</option>
-            <option value="cash-on-delivery">СБП</option>
+            <option value="SberPay">СберPay</option>
+            <option value="paypal">PayPal</option>
+            <option value="SBP">СБП</option>
+            <option value="Credit/Debit-payment-method">Платёжная система Мир/Mastercard/Visa</option>
         </select>
     </div>
 
@@ -38,7 +39,8 @@
         <p>Общая стоимость: <strong>1000 ₽</strong></p>
     </div>
 
-    <button class="checkout-btn">Перейти к оплате</button>
+
+    <a class="checkout-btn" href="https://sbp.nspk.ru/">Перейти к оплате</a>
 </div>
 
 <script src="basket.js"></script>
